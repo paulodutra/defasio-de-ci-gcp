@@ -1,0 +1,8 @@
+version: '3'
+
+services: 
+    app-golang:
+        build: .
+        container_name: app-golang
+        volumes: 
+            .:/go/src/
