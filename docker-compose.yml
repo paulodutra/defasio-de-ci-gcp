@@ -6,7 +6,7 @@ services:
             context: ./
         container_name: app-golang
         volumes: 
-            .:/usr/src/app
+            .:/go/src
 networks:  
     app-golang:
         driver: bridge        
