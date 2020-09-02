@@ -6,5 +6,5 @@ services:
             context: ./
         container_name: app-golang
         volumes: 
-            ./:/usr/src/app
+            .:/usr/src/app
         
