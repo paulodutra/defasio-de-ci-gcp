@@ -9,5 +9,4 @@ services:
             .:/go/src
 volumes:
     app-golang:
-        name: "app-golang"
         external: false        
