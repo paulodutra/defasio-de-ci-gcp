@@ -9,4 +9,7 @@ services:
             .:/go/src
 networks:  
     app-golang:
-        driver: bridge        
+        driver: bridge
+volumes:
+    app-golang:
+        driver: "local"        
