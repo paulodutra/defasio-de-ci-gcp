@@ -7,9 +7,6 @@ services:
         container_name: app-golang
         volumes: 
             .:/go/src
-networks:  
-    app-golang:
-        driver: bridge
 volumes:
     app-golang:
         driver: "local"        
