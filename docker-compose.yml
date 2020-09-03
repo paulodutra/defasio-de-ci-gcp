@@ -9,4 +9,7 @@ services:
             .:/go/src
 volumes:
     app-golang:
-        external: false        
+        external: false   
+networks: 
+    app-golang:
+        driver: bridge    
