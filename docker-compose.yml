@@ -5,11 +5,11 @@ services:
         build: 
             context: ./
         container_name: app-golang
-        volumes: 
-            .:/go/src
-volumes:
-    app-golang:
-        external: false   
-networks: 
-    app-golang:
-        driver: bridge    
+        # volumes: 
+        #     .:/go/src
+# volumes:
+#     app-golang:
+#         external: false   
+# networks: 
+#     app-golang:
+#         driver: bridge    
