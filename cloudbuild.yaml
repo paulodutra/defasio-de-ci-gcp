@@ -11,9 +11,6 @@ steps:
   name: 'gcr.io/cloud-builders/go'
   args: ['test']
   env: ['GOPATH=/go/src']
-  volumes:
-  - name: 'go'
-    path: '/go/src'
 
 - id: "Build imagem Dockerfile"
   name: 'gcr.io/cloud-builders/docker' 
